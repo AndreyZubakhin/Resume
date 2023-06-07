@@ -9,7 +9,7 @@ body {
     max-width: 1200px;
 }
 
-section {
+.section {
 	display: block;
 	width: 100%;
 }
@@ -23,8 +23,7 @@ article {
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 30px;    
     color: rgb(44, 2, 84);
 }
 
@@ -63,4 +62,9 @@ footer {
 	left: -100px;
 	text-align: center;
     font-weight: bold;
+}
+
+ul {
+    margin-left: 15px;
+    padding-left: 0;
 }
