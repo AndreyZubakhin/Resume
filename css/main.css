@@ -11,7 +11,6 @@ body {
 
 .section {
 	display: block;
-	width: 100%;
 }
 
 article {
@@ -67,4 +66,29 @@ footer {
 ul {
     margin-left: 15px;
     padding-left: 0;
+}
+
+@media(max-width: 1200px) {
+    .section {
+        display: block;
+        max-width: 750px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .section h1 {
+        font-size: 20px;
+    }
+    .section h2 {
+        font-size: 18px;
+    }
+    .section h3 p {
+        font-size: 16px;
+    }
+    footer {
+        display: none;
+    }
 }

@@ -55,3 +55,22 @@ p {
     text-transform: uppercase;
     font-size: 18px;
 }
+
+@media (max-width: 992px) {
+    .wrapper {
+        max-width: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper h1 {
+        max-width: none;
+        font-size: 40px;        
+    }
+    .countdown h2 {        
+        font-size: 20px;
+    }
+    .countdown p {        
+        font-size: 15px;
+    }
+}
