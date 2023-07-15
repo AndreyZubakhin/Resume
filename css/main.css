@@ -135,7 +135,7 @@ ul {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 375px) {
     .section h1 {
         font-size: 18px;
     }
@@ -154,9 +154,9 @@ ul {
     .logo-mobile {
         display: flex;
         flex-wrap: wrap;
-        width: 15%;
+        width: 10%;
         transform: rotate(0deg);
-        padding: 0px 415px;
+        padding: 0px 410px;
         top: 16px;
     }
 }
