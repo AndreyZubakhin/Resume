@@ -9,15 +9,10 @@ body {
     max-width: 1200px;
 }
 
-.section {
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 article {
     background-color: #eee;
-	display: block;
+	display: flex;
+    flex-direction: column;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 10px;
@@ -79,7 +74,7 @@ ul {
     padding-left: 0;
 }
 
-@media(max-width: 1500px) {
+@media(max-width: 1200px) {
     body {
         background-color: #CCCCCC;
         margin: auto;       
@@ -111,13 +106,6 @@ ul {
         top: 3px;
         left: -100px;
         text-align: center;
-    }
-}
-
-@media(max-width: 1150px) {
-    .section {
-        display: block;
-        max-width: 650px;
     }
 }
 
