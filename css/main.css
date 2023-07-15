@@ -10,7 +10,9 @@ body {
 }
 
 .section {
-	display: block;
+	display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 
 article {
@@ -61,6 +63,15 @@ footer {
 	left: -100px;
 	text-align: center;
     font-weight: bold;
+}
+
+.Logo-HH {
+	transform: rotate(-45deg);
+	position: absolute;
+	padding: 0px 103px;
+	top: 3px;
+	left: -100px;
+	text-align: center;
 }
 
 ul {
