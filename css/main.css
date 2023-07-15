@@ -46,7 +46,7 @@ p {
 	color: rgb(85, 84, 84);	
 }
 
-.Logo-HH {
+.logo__hh {
 	transform: rotate(-45deg);
 	position: absolute;
 	padding: 0px 103px;
@@ -99,7 +99,7 @@ ul {
         text-align: center;
         font-weight: bold;
     }
-    .Logo-HH {
+    .logo__hh {
         transform: rotate(-45deg);
         position: absolute;
         padding: 0px 103px;
@@ -122,7 +122,15 @@ ul {
     footer {
         display: none;
     }
-    .Logo-HH {
+    .logo__hh {
         display: none;
+    }
+    .logo-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        width: 15%;
+        transform: rotate(45deg);
+        padding: 0px 850px;
+        top: 40px;
     }
 }
