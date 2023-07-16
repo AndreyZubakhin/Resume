@@ -14,11 +14,11 @@ body {
 }
 
 .container {    
-    max-width: 100%;
-    background: white;    
+    background: blue;
+    width: 70%;
     padding: 10px 30px;
-    border-radius: 15px;
-    margin: 0 auto;
+    border-radius: 50px;
+    margin: 10px auto;
 }
 
 .container h1 {      
@@ -26,14 +26,14 @@ body {
     flex-direction: column;
     align-items: center; 
     font-size: 60px;
-    color: black;
+    color: white;
     font-family: "Caveat", cursive;    
 }
 
 .countdown {
     display: flex;
     justify-content: center;    
-    padding: 30px;
+    padding: 0px 0px;    
 }
 
 .timer {
@@ -42,7 +42,7 @@ body {
     align-items: center;
     padding: 20px;
     margin: 20px;
-    background: brown;
+    background: rgb(195, 18, 21);
     border: 3px solid white;
     border-radius: 50px;
     min-width: 100px;
