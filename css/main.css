@@ -151,7 +151,7 @@ ul {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .section h1 {
         font-size: 18px;
     }
