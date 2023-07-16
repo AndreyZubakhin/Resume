@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     justify-content: center;      
     background-color: #CCCCCC;
+    font-family: "Caveat", cursive;
+    min-height: 100vh;
 }
 
 .container {    
@@ -44,7 +46,7 @@ body {
     background: rgb(195, 18, 21);
     border: 3px solid white;
     border-radius: 50px;
-    min-width: 100px;
+    min-width: 100px;    
 }
 
 h2 {

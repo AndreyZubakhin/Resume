@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
-html, body {
-  min-height: 100vh;
-}
-
 .aside {
   height: 400px;
 }
@@ -26,10 +22,12 @@ html, body {
 
 .h4 {
   color: white;
+  font-size: 40px;
 }
  
 .d-flex {
   display: flex;
+  font-size: 20px;
 }
 
 .task-title {
@@ -66,7 +64,7 @@ html, body {
 }
 
 .empty-list__title {
-  font-size: 28px;
+  font-size: 45px;
   margin-bottom: 15px;
   font-weight: 300;
 }
@@ -78,6 +76,22 @@ html, body {
 
 .card-header {
   font-weight: bold;
+}
+
+.bg-light {
+  font-size: 30px;
+}
+
+.form-control {
+  font-size: 20px;
+}
+
+.form-text {
+  font-size: 25px;
+}
+
+.btn {
+  font-size: 30px;
 }
 
 .btn-action {
