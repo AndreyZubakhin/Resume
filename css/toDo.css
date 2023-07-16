@@ -8,7 +8,7 @@ html, body {
 
 .container__toDo {
   background: red;
-  width: 70%;
+  width: 50%;
   padding: 10px 30px;
   border-radius: 50px;
   margin: 10px auto;
@@ -69,6 +69,10 @@ html, body {
 .empty-list__icon {
   color: #42BE2A;
   font-size: 32px;
+}
+
+.card-header {
+  font-weight: bold;
 }
 
 .btn-action {
