@@ -171,7 +171,9 @@ ul {
         display: flex;
         flex-wrap: wrap;
         width: 10%;
-        transform: rotate(0deg);        
-        top: 16px;
+        transform: rotate(0deg);
+        top: 15px;
+        left: 320px;
+        padding: 0px 0px;
     }
 }
