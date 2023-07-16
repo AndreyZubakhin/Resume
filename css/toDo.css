@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
 html, body {
   min-height: 100vh;
 }
@@ -17,6 +19,9 @@ html, body {
 .display-4 {
   text-align: center;
   color: white;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .h4 {
