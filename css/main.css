@@ -145,9 +145,11 @@ ul {
     .logo-mobile {
         display: flex;
         flex-wrap: wrap;
-        width: 15%;
-        transform: rotate(45deg);        
-        top: 40px;
+        width: 10%;
+        transform: rotate(0deg);
+        top: 15px;
+        left: 670px;
+        padding: 0px 0px;
     }
 }
 
