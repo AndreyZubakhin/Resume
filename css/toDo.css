@@ -113,6 +113,7 @@
     opacity: 1;
 }
 
+/* Сойства игнорирование клика */
 .btn-action img {
   pointer-events: none;
 }

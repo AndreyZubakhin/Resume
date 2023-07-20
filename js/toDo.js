@@ -9,7 +9,14 @@ const tasksList = document.querySelector('#tasksList');
 const emptyList = document.querySelector('#emptyList');
 //console.log(emptyList);
 
+//Добавляем задачу для формы
+
 form.addEventListener('submit', addTask);
+
+//Удаляем задачу
+
+tasksList.addEventListener('click', deleteTask);
+ 
 
 // Функцию можно вызывать в любое время, даже если функция идет ниже строчки кода в которой она вызывается
 
@@ -49,4 +56,21 @@ taskInput.focus();
         emptyList.classList.add('none');
     }
 }
+
+function deleteTask(event) {   
+    //Делаем проверку, что клик был по кнопке "удалить задачу"
+    if (event.target.dataset.action ==='delete') {
+        // console.log('Delete');
+        const parenNode = event.target.closest('.list-group-item');
+        // console.log(parenNode);
+        parenNode.remove();
+    }
+    
+    //Добавляем проверку, что если в списке дел 1 элемент, то показываем блок "Список дел пуст" 
+    if(tasksList.children.length === 1) {
+        emptyList.classList.remove('none');
+    }
+}
+
+
 
