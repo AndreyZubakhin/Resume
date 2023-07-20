@@ -102,7 +102,6 @@
     border-radius: 4px;
     transition: opacity 0.2s ease-in;
     opacity: 0.5;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +112,6 @@
     opacity: 1;
 }
 
-/* Сойства игнорирование клика */
 .btn-action img {
   pointer-events: none;
 }
