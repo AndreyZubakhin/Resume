@@ -9,7 +9,7 @@ const tasksList = document.querySelector('#tasksList');
 const emptyList = document.querySelector('#emptyList');
 //console.log(emptyList);
 
-//Добавляем задачу для формы
+//Добавляем задачу
 form.addEventListener('submit', addTask);
 
 //Удаляем задачу
@@ -17,7 +17,7 @@ tasksList.addEventListener('click', deleteTask);
 
 //Отмечаем задачу завершенной
 tasksList.addEventListener('click', doneTask);
- 
+
 
 // Функцию можно вызывать в любое время, даже если функция идет ниже строчки кода в которой она вызывается
 
@@ -58,7 +58,7 @@ taskInput.focus();
     }
 }
 
-function deleteTask(event) {   
+function deleteTask(event) {
     //Делаем проверку, что клик был по кнопке "удалить задачу"
     if (event.target.dataset.action ==='delete') {
         // console.log('Delete');
